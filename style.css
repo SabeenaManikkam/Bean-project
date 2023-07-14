@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    transform-origin: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background: #ffffff url(./assert/Mr\ BEAN\ IMAGE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 580px;
+    margin-top: 90px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 323.1px;
+}
+
+.eye {
+    width: 79.7px;
+    height: 68px;
+    border-radius: 50%;
+    float: left;
+    margin: 40px;
+    text-align: center;
+    left: 150px;
+    right:300px;
+}
+
+.ball {
+    background: url(./assert/eye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+}
